@@ -29,7 +29,7 @@ mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTop
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors({
-    origin: process.env.CLIENT_URL,
+    origin: '*',
     credentials: true
 }));
 
