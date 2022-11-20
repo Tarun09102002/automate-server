@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "check-password-strength": "^2.0.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "geo-nearby": "^2.0.1",
+    "mocha": "^10.1.0",
+    "mongodb": "^4.11.0",
+    "mongoose": "^6.7.0",
+    "nodemon": "^2.0.20"
+  }
+}
